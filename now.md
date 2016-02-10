@@ -1,5 +1,11 @@
 Base Header Level: 4
 
+# Coordinating Race Car Repairs
+
+Last month I blew the engine in my race car, and I'm working through the repair
+process, which involves shipping the car out to California for a major engine
+overhaul.  Details on the [diary](/cars/gt3rs/diary/engine-rebuild).
+
 # OpenHAB Experimenting
 
 I stopped running OpenHAB on a Linux VM and instead moved it to my Raspberry Pi
