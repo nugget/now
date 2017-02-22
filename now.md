@@ -4,7 +4,7 @@ Base Header Level: 4
 
 My second major feature addition to [Home Assistant](https://home-assistant.io)
 was accepted this week, adding support for the INSTOEN PLM PowerLinc modem
-devices.  the month.  Most of the work right now is within the underlying
+devices.  Most of the heavy-lifting is within the underlying
 [Python insteonplm package](https://github.com/nugget/python-insteonplm).
 
 This will be included in the upcoming 0.39 release of hass and will provide
