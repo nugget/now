@@ -2,18 +2,18 @@ Base Header Level: 4
 
 # Home Automation Expermenting
 
-I'm teaching myself proper Python and learning asyncio so that I can apply
-those skills towards [Home Assistant](https://home-assistant.io/) work.
-
-My pull request to add platform support for [Anthem MRX and AVR
-devices](https://home-assistant.io/components/media_player.anthemav/) was
-accepted into the project in the last release (0.37).  Buoyed by that success
-I've started working on a much more involved addition in the form of an INSTEON
-PLM component to suppor the older USB/Serial based PowerLinc Modem devices.
-
-I'm optimistically hoping to get it working in time for 0.39 towards the end of
-the month.  Most of the work right now is within the underlying
+My second major feature addition to [Home Assistant](https://home-assistant.io)
+was accepted this week, adding support for the INSTOEN PLM PowerLinc modem
+devices.  the month.  Most of the work right now is within the underlying
 [Python insteonplm package](https://github.com/nugget/python-insteonplm).
+
+This will be included in the upcoming 0.39 release of hass and will provide
+swtich, binary sensor, and light device support for PLM-tracked INSTEON
+devices.
+
+I think my next piece of code for hass will be adding support for the archaic
+DSC IT-100 serial alarm interface.  This will be much stronger than the current
+Envisalink driver since it's better suited to a callback-based asyncio model.
 
 # Time Spent on My Feet
 
