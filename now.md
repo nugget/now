@@ -11,7 +11,7 @@ This will be included in the upcoming 0.39 release of hass and will provide
 swtich, binary sensor, and light device support for PLM-tracked INSTEON
 devices.
 
-https://github.com/home-assistant/home-assistant/pull/6104
+- [PR6104](https://github.com/home-assistant/home-assistant/pull/6104)
 
 I think my next piece of code for hass will be adding support for the archaic
 DSC IT-100 serial alarm interface.  This will be much stronger than the current
